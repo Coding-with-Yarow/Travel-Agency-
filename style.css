@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-color: white;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+  
+}
+.logo i{
+    font-size: 2em;
+    color: goldenrod;
+    padding-top: 7%;
+}
+.logo h1{
+    font-size: 2em;
+    padding-top: 7%;
+    color: black;
+   
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1.3em;
+    font-weight: 550;
+    list-style: none;
+    padding: 20px 30px 20px 30px;
+    color: black;
+ 
+
+}
+.header ul li{
+    padding-top: 4%;
+}
+.btn-book{
+    background-color: goldenrod;
+    color: black;
+    border: 2px goldenrod solid;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+
+}
+.btn-sign{
+    background-color: transparent;
+    color: black;
+    border: 2px goldenrod solid;
+    border-radius: 10px;
+    padding: 7px 20px;
+}
+
+
+/* section 2 */
+
+.services{
+    width: 100%;
+    min-height: 82.3vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(savanah2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.show{
+    /* margin-bottom: 120px; */
+    padding-top: 120px;
+    color: white;
+    padding-left: 50px;
+    
+}
+.show h1{
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+.show p{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-size: 1em;
+}
+.show form{
+  
+
+    padding-left: 50px;
+
+}
+.show form input{
+    border: 0;
+    outline: 0;
+    padding: 5px 10px;
+    margin-top: 2%;
+    
+  
+    font-size: 16px;
+    padding-left: 10px;
+}
+.show form .btn{
+    font-size: 10px;
+    background-color: goldenrod;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* section three */
+
+.main{
+    background-color: white;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+#ok{
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+#ok h1{
+    margin-top: 30px;
+    font-size: 3em;
+}
+#ok p{
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+.boxs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 60px;
+    margin-left: 62px;
+  
+
+}
+
+.box1{
+    margin-top: 30px;
+    
+    background-color: white;
+    width: 230px;
+    height: 200px;
+    border-radius: 14px;
+    box-shadow: 7px 7px 15px black;
+ 
+  
+}
+.box1 i{
+    color: goldenrod;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 20px;
+    
+    
+  
+}
+.box1 p{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+  
+}
+
+/* Section 4 */
+
+.main-two{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  
+}
+/* .feature{
+
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.feature h1{
+    margin-top: 20px;
+    font-size: 3em;
+} */
+.free-two{
+    background-color: goldenrod;
+    width: 280px;
+    height: 400px;
+    border-radius: 16px;
+}
+.free-two img{
+    margin-top: 20px;
+    margin-left: 50px;
+
+    border-radius: 20px;
+
+}
+.free-two h1{
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 2em;
+}
+.free-two p{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 200;
+    color: white;
+    font-style: normal;
+
+}
+
+
+/* section5 */
+sect4{
+    background-color: azure;
+ }
+
+ .sect4 .baxs2{
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+
+ .sect4 .baxs2 .qoral{
+    margin-top: 10px;
+    margin-left: 310px;
+ }
+ .sect4 .baxs2 .qoral h1{
+    font-size: 38px;
+    color: goldenrod;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: capitalize ;
+ 
+
+ }
+
+ .sect4 .baxs2 .qoral p{
+    padding-top: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: capitalize 
+
+ }
+
+ .sect4 .baxs2 .qoral button{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: goldenrod;
+    color: white;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: capitalize ;
+    margin-bottom: 20px;
+ }
+
+ .sect4 .baxs2 .img{
+    position: relative;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-right: 150px;
+
+ }
+.sec4 .btn button{
+    position: absolute;
+    top: 2500px;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 18px;
+    background-color: white;
+    color: goldenrod;
+    margin-left: 900px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+}
+    
+
+
+ /* CSS for Footer */
+footer {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b8b8b8;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #b8b8b8;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f4f4f4;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #b8b8b8;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #f4f4f4;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+
+   
+     
